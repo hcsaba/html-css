@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<head>
+  <title>Register</title>
+</head>
+<body>
+<style type="text/css">
+body {color: grey; }
+ul {list-style: none;}
+input#us {
+	background: url('https://cdn1.iconfinder.com/data/icons/hamburg/16/hire-me.png') 5px no-repeat;
+	padding: 5px 0 5px 26px;
+	margin-left: 3px;
+	border: 0;
+	border: 1px solid #dedede;
+	border-radius: 4px;	
+	font-family: tahoma;		
+}
+input#pw {
+	background: url('https://cdn1.iconfinder.com/data/icons/ledicons/key.png') 5px no-repeat;
+	padding: 5px 0 5px 26px;
+	margin-left: 3px;
+	border: 1px solid #dedede;
+	border-radius: 4px;
+	font-family: tahoma;	
+}
+input#mail {
+	background: url('https://cdn1.iconfinder.com/data/icons/fatcow/16x16/contact_email.png') 5px no-repeat;
+	padding: 5px 0 5px 26px;
+	margin-left: 3px;
+	border: 1px solid #dedede;
+	border-radius: 4px;
+	font-family: tahoma;	
+}
+input#avatar {
+	background: url('https://cdn1.iconfinder.com/data/icons/fatcow/16x16_0500/image_add.png') 5px no-repeat;
+	padding: 5px 0 5px 26px;
+	margin-left: 3px;
+	border: 1px solid #dedede;
+	border-radius: 4px;
+	font-family: tahoma;
+}
+input#button {
+	background: url('https://cdn1.iconfinder.com/data/icons/sem_labs_icon_pack/icons/arrow_return_down_right.png') -8px -10px no-repeat;
+	padding: 5px 5px 5px 26px;
+	border: 1px solid #dedede;
+	border-radius: 4px;
+	margin-top: 10px;
+	margin-left: 527px;
+	float:left;
+	font-family: tahoma;	
+}
+input#rs {
+	background: url('https://cdn1.iconfinder.com/data/icons/duesseldorf/16/refresh.png') 5px no-repeat;
+	padding: 5px 5px 5px 26px;
+	border: 1px solid #dedede;
+	border-radius: 4px;
+	margin-left: 15px;
+	margin-top: 10px;
+	float:left;
+	font-family: tahoma;
+}
+input {transition: -webkit-transform 250ms; -webkit-transform: scale(1.0);}
+input:hover {-webkit-transform:scale(1.05);
+</style>
+<div align="center" id="reg">
+<ul>
+	<li>
+		<form method="" action="">
+		<label>
+			<input type="username" id="us" placeholder="Felhasználóinév!" />
+		</label>
+	</li>
+	<li>
+		<label>
+			<input type="password" id="pw" placeholder="Jelszó!" />
+		</label>
+	</li>
+	<li>
+		<label>
+			<input type="username" id="mail" placeholder="Email Címed!" />
+		</label>
+	</li>
+	<li>
+		<label>
+			<input type="file" id="avatar" placeholder="d" />
+		</label>
+	</li>
+	<li>
+		<label>
+			<input type="submit" id="button" value="&nbsp;Regisztrál!" />
+		</label>
+	</li>
+	<li>
+		<label>
+			<input type="reset" id="rs" value="Újra" />
+		</label>
+	</li>
+	</form>	
+</ul>
+<div style="clear: both;" class="clear"></div>
+</div>
+<!--<ByBoss/>-->
+</body>
+</html>
